@@ -7,22 +7,27 @@
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
     android:orientation="vertical"
+    android:id="@+id/main_layout"
     tools:context="in.teamcodesparrow.calculator.MainActivity">
 
 
    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/txtres"
-      android:layout_marginBottom="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtproc"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:layout_marginBottom="30dp"
 
       />
  <TextView
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:id="@+id/txtproc"
+     android:id="@+id/txtres"
      android:layout_marginBottom="30dp"
-
+     android:textSize="50sp"
+     android:textStyle="bold"
+     android:textColor="#ff0000"
      />
 
  <LinearLayout
